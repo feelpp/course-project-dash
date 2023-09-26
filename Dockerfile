@@ -1,12 +1,10 @@
 # -*- mode: Dockerfile -*-
 
-FROM ghcr.io/feelpp/feelpp:jammy
+FROM python:3.9
 
-USER root
-COPY . /home/feelpp/
-RUN ls -lrtR /home/feelpp
+RUN mkdir /work
+COPY . /work
+WORKDIR /work
+RUN pip3 install -r requirements.txt
 
-RUN dpkg -i /home/feelpp/*.deb 
-
-USER feelpp
 
