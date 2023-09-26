@@ -1,7 +1,7 @@
 site:
-  title: Feel++ Template Project
-  url: https://feelpp.github.io/feelpp-project/
-  start_page: feelpp-project::index.adoc
+  title: Course Project Dash
+  url: https://feelpp.github.io/course-project-dash/
+  start_page: course-project-dash::index.adoc
 content:
   sources:
   - url: .
