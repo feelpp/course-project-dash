@@ -80,7 +80,8 @@ Using dash, create a graphical interface that allows you to..:
 
 
 . submit a parameter  set stem:[\mu] to the finite element solver
-. display the output of finite element calculations, in particular
+. display the output of finite element calculations in a text block
+. Add the possibility to accumulate in a table in your gui a table showing the parameter and corresponding value of the output
 . add the possibility to vary one parameter over an interval and plot the graph  of the output when you vary one of the parameter
 
 === Package your application

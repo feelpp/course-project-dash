@@ -1,6 +1,6 @@
 # -*- mode: Dockerfile -*-
 
-FROM python:3.9
+FROM ghcr.io/feelpp/feelpp:jammy
 
 RUN mkdir /work
 COPY . /work
